@@ -1,0 +1,84 @@
+/* navbar {
+  background: rgba(0, 0, 0, 0.1);
+  width: max-content;
+  display: column;
+  padding: 0.9rem 1.7rem;
+  z-index: 2;
+  display: flex;
+  position: fixed;
+  border-radius: 3rem;
+  border: 2px solid #8c898b;
+  gap: 2rem;
+
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 2rem;
+} */
+
+navbar {
+  background: rgba(96, 95, 95, 0);
+  width: max-content;
+  display: column;
+  padding: 0.3rem 1.7rem;
+  z-index: 2;
+  position: fixed;
+  top: 45%;
+  display: flex;
+
+  left: 78%;
+  transform: translate(-50%);
+  transform: rotate(90deg);
+  /* bottom: 16rem; */
+  gap: 1.6rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
+  border: 2px solid white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+
+  /* position: fixed; */
+}
+
+navbar img {
+  height: 2rem;
+}
+
+navbar a {
+  transform: rotate(-90deg);
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+
+  /* height: 2rem; */
+  background: transparent;
+  padding: 0.4rem;
+  align-self: center;
+  border-radius: 50%;
+}
+
+navbar svg {
+  color: white;
+  font-size: 1.8rem;
+}
+
+navbar a:hover {
+  background-color: rgba(52, 52, 52, 0.1);
+}
+
+navbar a.active {
+  /* background-color: rgba(52, 52, 52, 0.3); */
+  border: 2px solid white;
+}
+
+/* ----medium devices --- */
+
+@media screen and (max-width: 1024px) {
+  navbar {
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 5%;
+    top: auto;
+  }
+  navbar a {
+    transform: rotate(0deg);
+  }
+}

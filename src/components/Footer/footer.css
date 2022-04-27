@@ -1,0 +1,34 @@
+.footer {
+  background-color: var(--color-nftext);
+  height: 16rem;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* .footer-icons {
+  gap: 0.8rem;
+} */
+
+.footer svg {
+  font-size: 2.8rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  color: var(--color-bg);
+}
+
+.footer img {
+  height: 2.8rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.footer h5 {
+  margin-top: 1.2rem;
+  font-size: 0.7rem;
+  color: var(--color-bg);
+}

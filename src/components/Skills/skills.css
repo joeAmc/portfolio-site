@@ -1,0 +1,117 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 13.8rem; */
+  position: relative;
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+  width: 59rem;
+  height: 16rem;
+  /* margin-top: 13.8rem; */
+  border: 2px solid white;
+  /* border-radius: 3rem; */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.skills-label {
+  height: 70px;
+  width: max-content;
+  position: absolute;
+  margin-bottom: 11rem;
+}
+
+.skills-icons {
+  flex-direction: column;
+  text-align: center;
+}
+
+.logos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-self: center;
+
+  margin-top: 2rem;
+}
+
+.logos svg {
+  color: var(--color-mtext);
+  font-size: 4.8rem;
+  transition: transform 0.2s;
+  /* /* margin-right: ; */
+  margin-left: 0.7rem;
+  margin-right: 0.7rem;
+  /* box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); */
+}
+
+.ps svg {
+  /* font-size: 6.4rem; */
+}
+
+.logos svg:hover {
+  transform: scale(1.4);
+  width: auto;
+  margin: 50px, 50px, 10px, 10px;
+  /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); */
+}
+
+.logos h3 {
+  font-size: 1rem;
+}
+
+.icon-text {
+  /* display: none; */
+  opacity: 0; /* Completely invisible. */
+  /* transition: 1s; A 1 second transition. */
+  /* font-size: 1.2rem; */
+  margin-top: 1.3rem;
+}
+
+.logos svg:hover + .icon-text {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+/* ----medium devices --- */
+
+@media screen and (max-width: 1024px) {
+  .logos {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .logos svg {
+    margin-top: 2.4rem;
+  }
+  .skills {
+    width: 32rem;
+    height: 24rem;
+  }
+  .skills-label {
+    margin-bottom: 18rem;
+  }
+}
+
+/* ----small devices---- */
+@media screen and (max-width: 600px) {
+  .logos {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .logos svg {
+    margin-top: 2.9rem;
+  }
+
+  .skills {
+    width: 65%;
+    height: 35rem;
+  }
+
+  .skills-label {
+    margin-bottom: 26rem;
+  }
+}
