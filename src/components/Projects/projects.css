@@ -181,6 +181,11 @@ svg.rails {
     left: 18.3rem;
     height: 60%;
   }
+
+  .buttons {
+    position: absolute;
+    bottom: 6rem;
+  }
 }
 
 /* ----small devices---- */
@@ -189,16 +194,18 @@ svg.rails {
     width: 20rem;
   }
   .proj {
-    margin-bottom: 5rem;
+    margin-bottom: 8rem;
+    height: 25rem;
   }
 
   .proj img {
-    height: 50%;
-    left: 5rem;
-    bottom: -8rem;
+    height: 47%;
+    left: 4rem;
+    bottom: -7rem;
   }
   .top img {
-    left: 10rem;
-    height: 60%;
+    left: 9rem;
+    height: 52%;
+    bottom: -8rem;
   }
 }
