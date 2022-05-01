@@ -104,6 +104,7 @@ section {
 
   .logos svg {
     margin-top: 2.9rem;
+    font-size: 4rem;
   }
 
   .skills {
@@ -113,5 +114,8 @@ section {
 
   .skills-label {
     margin-bottom: 26rem;
+  }
+  .logos h3 {
+    font-size: 0.8rem;
   }
 }
