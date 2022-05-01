@@ -184,7 +184,7 @@ svg.rails {
 
   .buttons {
     position: absolute;
-    bottom: 6rem;
+    bottom: 1rem;
   }
 }
 
@@ -207,5 +207,8 @@ svg.rails {
     left: 3.3rem;
     height: 52%;
     bottom: -8rem;
+  }
+  .buttons {
+    bottom: 6rem;
   }
 }
