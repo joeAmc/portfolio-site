@@ -1,14 +1,14 @@
 import React from "react";
 import "./skills.css";
 import { SiJavascript } from "react-icons/si";
-import { FaReact } from "react-icons/fa";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
+import { GrReactjs } from "react-icons/gr";
 import { FaFigma } from "react-icons/fa";
 import { SiRuby } from "react-icons/si";
 import { SiRubyonrails } from "react-icons/si";
 import { SiAdobephotoshop } from "react-icons/si";
 import { BsBootstrapFill } from "react-icons/bs";
+import { ImHtmlFive } from "react-icons/im";
+import { SiCss3 } from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -23,15 +23,15 @@ const Skills = () => {
             <h3 class="icon-text">JavaScript</h3>
           </div>
           <div className="skills-icons">
-            <FaReact />
+            <GrReactjs />
             <h3 class="icon-text">React</h3>
           </div>
           <div className="skills-icons">
-            <FaHtml5 />
+            <ImHtmlFive />
             <h3 class="icon-text">HTML</h3>
           </div>
           <div className="skills-icons">
-            <FaCss3Alt />
+            <SiCss3 />
             <h3 class="icon-text">CSS</h3>
           </div>
           <div className="skills-icons">
