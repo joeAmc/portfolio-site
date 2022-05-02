@@ -81,16 +81,19 @@ textarea {
   .contact-options {
     margin-top: 5rem;
   }
+  section > h1 {
+    margin-bottom: -3rem;
+  }
 }
 
 /*--- small devices--*/
 @media screen and (max-width: 600px) {
   .container.contact-container {
-    width: 65%;
+    width: 20rem;
   }
-  section > h1 {
+  /* section > h1 {
     margin-bottom: -2rem;
-  }
+  } */
   .contact-options {
     margin-bottom: -1rem;
   }
