@@ -137,9 +137,9 @@ a:hover {
 
 .btn:hover {
   /* background-color: rgba(rgb(254, 254, 254), rgb(254, 254, 254), rgb(254, 254, 254), 0.8); */
-  background-color: var(--color-bg);
-  color: var(--color-blocks);
-  border: 1px solid var(--color-blocks);
+  background-color: transparent;
+  color: var(--color-nums);
+  border: 1px solid var(--color-nums);
 }
 
 .btn-primary {
