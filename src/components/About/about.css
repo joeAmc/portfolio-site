@@ -6,7 +6,7 @@ section {
   height: 21rem;
   position: absolute;
   left: 3rem;
-  bottom: 10rem;
+  bottom: 15rem;
   aspect-ratio: 1/1;
   border-radius: 3rem;
   background: linear-gradient(
@@ -31,13 +31,13 @@ section {
   /* height: 30rem;
   position: absolute;
   bottom: 17rem;
-  border: 2px solid white;
+  /* border: 2px solid white; */
   left: 2.3rem;
   z-index: 0;
   display: flex;
   flex-direction: column;
   border-radius: 3rem;
-  left: calc(50% - 11rem); */
+  left: calc(50% - 11rem);
 }
 /*
 .me img:hover {
@@ -84,7 +84,8 @@ section {
   }
   .me {
     left: 14rem;
-    bottom: 18rem;
+    bottom: 24rem;
+    height: 20rem;
   }
 }
 
@@ -100,8 +101,8 @@ section {
     margin-right: 1rem;
   }
   .me {
-    left: 1.7rem;
-    bottom: 18rem;
+    left: 1rem;
+    bottom: 23rem;
     height: 18rem;
   }
 }
