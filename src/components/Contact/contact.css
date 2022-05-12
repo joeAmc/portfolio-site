@@ -3,6 +3,10 @@
   flex-direction: column;
 }
 
+form > h1 {
+  text-align: center;
+}
+
 .container.contact-container {
   width: 70%;
   display: grid;
@@ -23,6 +27,7 @@
   border: 2px solid white;
   text-align: center;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(15px);
 }
 
 .contact-option:hover {
@@ -39,6 +44,7 @@
 form {
   border: 2px solid white;
   margin-bottom: 4rem;
+  backdrop-filter: blur(15px);
 
   padding: 2rem;
   display: flex;

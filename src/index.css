@@ -12,6 +12,17 @@
   text-decoration: none;
 }
 
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--color-bg);
+  line-height: 1.7;
+  background-image: url("assets/banner2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  object-fit: cover;
+}
+
 :root {
   --color-bg: #8D888B;
   --color-mtext: white;
@@ -35,18 +46,7 @@ html {
   display: none;
 }
 
-body {
-  font-family: 'Inter', sans-serif;
-  background-color: var(--color-bg);
-  line-height: 1.7;
-  /* background-image: url(../src/assets/bg.png); */
-  /* height: 100%; */
 
-  /* Center and scale the image nicely */
-  /* background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
-}
 
 /* General styles */
 
@@ -132,6 +132,7 @@ a:hover {
   background-color: transparent;
   font-size: 1rem;
   line-height: 1.7rem;
+  backdrop-filter: blur(15px);
   /* background-color: rgba(rgb(254, 253, 253), rgb(246, 249, 246), rgb(248, 248, 250), 0); */
 }
 

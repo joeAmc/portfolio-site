@@ -61,12 +61,12 @@ navbar svg {
 }
 
 navbar a:hover {
-  background-color: rgba(52, 52, 52, 0.1);
+  background-color: rgba(52, 52, 52, 0.2);
 }
 
 navbar a.active {
   /* background-color: rgba(52, 52, 52, 0.3); */
-  border: 2px solid white;
+  border: 2px solid var(--color-nums);
 }
 
 /* ----medium devices --- */

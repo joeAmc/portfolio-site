@@ -59,6 +59,7 @@
   position: relative;
   height: 22rem;
   margin-top: 8rem;
+  backdrop-filter: blur(15px);
 }
 
 .proj-text {

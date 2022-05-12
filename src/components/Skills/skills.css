@@ -8,6 +8,7 @@ section {
 
 .skills {
   display: flex;
+  backdrop-filter: blur(15px);
   align-items: center;
   justify-content: center;
   text-align: center;
