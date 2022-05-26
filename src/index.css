@@ -65,7 +65,7 @@ h3 {
 h4,h5,p {
   font-weight: 300;
   color: var(--color-mtext);
-  font-size: 0.9rem;
+  font-size: 1rem;
 
 }
 
@@ -146,7 +146,13 @@ a:hover {
 .btn-primary {
   background-color: var(--color-mtext);
   color: #8D888B;
-  border: #8D888B;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-nums);
+  color: #8D888B;;
+  border: none;
 }
 
 img {

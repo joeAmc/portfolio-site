@@ -65,8 +65,8 @@
 .proj-text {
   background-color: 818D92;
   /* background: #818d92; */
-  width: 41rem;
-  margin-left: 1.9rem;
+  width: 59rem;
+  /* margin-left: 1.9rem; */
   /* margin-right: 6.75rem; */
   padding: 1.2rem;
   /* border-radius: 3rem; */
@@ -128,7 +128,8 @@ svg.rails {
 }
 
 .textitems {
-  margin-left: 17rem;
+  margin-left: 20rem;
+  margin-top: rem;
 }
 
 .top img {
@@ -165,22 +166,24 @@ svg.rails {
 /*--- medium devices--*/
 @media screen and (max-width: 1024px) {
   .proj-text {
-    width: 30rem;
+    width: 32rem;
     margin: 0;
     /* margin-left: 1.9rem; */
   }
 
   .textitems {
     margin-left: 0rem;
+    margin-top: -1rem;
   }
   .proj img {
     height: 50%;
-    left: 14rem;
-    bottom: -rem;
+    left: 13rem;
+    bottom: -3rem;
   }
   .top img {
-    left: 18.3rem;
+    left: 16rem;
     height: 60%;
+    bottom: -5rem;
   }
 
   .buttons {
@@ -196,18 +199,18 @@ svg.rails {
   }
   .proj {
     margin-bottom: 8rem;
-    height: 25rem;
+    height: 30rem;
   }
 
   .proj img {
-    height: 47%;
-    left: 0rem;
+    height: 12rem;
+    left: -0.4rem;
     bottom: -7rem;
   }
   .top img {
-    left: 3.3rem;
-    height: 52%;
-    bottom: -8rem;
+    left: 2.3rem;
+    height: 15rem;
+    bottom: -10rem;
   }
   .buttons {
     bottom: 6rem;

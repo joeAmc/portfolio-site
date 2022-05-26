@@ -29,6 +29,10 @@ const Navbar = () => {
         <FaUserCircle />
       </a>
       <a
+        activeClass="active"
+        smooth
+        spy
+        to="about"
         href="#skills"
         onClick={() => setActiveNav("#skills")}
         className={activeNav === "#skills" ? "active" : ""}

@@ -67,7 +67,7 @@ section {
 }
 
 .about-text {
-  margin-top: 3.5rem;
+  margin-top: 2.5rem;
   width: 66rem;
   margin-left: 27rem;
   margin-right: 4rem;
@@ -81,32 +81,32 @@ section {
     height: 25rem;
   }
   .about-text {
-    margin-top: 8.5rem;
+    margin-top: 6rem;
     width: 45rem;
     margin-left: 4rem;
     margin-right: 4rem;
   }
   .me {
     left: 14rem;
-    bottom: 19rem;
-    height: 20rem;
+    bottom: 22rem;
+    height: 16rem;
   }
 }
 
 @media screen and (max-width: 600px) {
   .about-block {
-    width: 22rem;
+    width: 20rem;
     height: 31rem;
   }
   .about-text {
-    margin-top: 15rem;
+    margin-top: 10rem;
     width: 66rem;
     margin-left: 1rem;
     margin-right: 1rem;
   }
   .me {
-    left: 1rem;
-    bottom: 20rem;
-    height: 18rem;
+    left: 3rem;
+    bottom: 23rem;
+    height: 16rem;
   }
 }

@@ -14,10 +14,11 @@ const About = () => {
           <div className="about-text">
             <h1>About</h1>
             <p>
-              Hi, I’m Joe a Frontend developer, experienced in project
-              management with a passion for design. Always happy to be
-              challenged with a desire to learn new things. Eager to adapt where
-              required.
+              Hi, I’m Joe a frontend developer, bootcamp graduate and former
+              lighting designer. I have a passion for problem solving, design,
+              being pushed and learning new things.I have vast experience
+              working within teams, managing projects and hitting deadlines,
+              communicating with internal and external teams.
             </p>
           </div>
         </div>
